@@ -4,7 +4,8 @@
 aws cloudformation create-stack --stack-name MyWebServerWithSecurityGroup --template-body file://MyWebServerWithSecurityGroup.yaml --parameters ParameterKey='KeyName',ParameterValue='SGkey'
 
  #Update Stack
-  aws cloudformation update-stack --stack-name MyWebServerWithSecurityGroup --template-body file://MyWebServerWithSecurityGroup.yaml --parameters ParameterKey='KeyName',ParameterValue='SGkey'
+ ```bash
+aws cloudformation update-stack --stack-name MyWebServerWithSecurityGroup --template-body file://MyWebServerWithSecurityGroup.yaml --parameters ParameterKey='KeyName',ParameterValue='SGkey'
 
 #Delete Stack 
 aws cloudformation delete-stack --stack-name MyWebServerWithSecurityGroup
