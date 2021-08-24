@@ -1,1 +1,4 @@
+This Project is just create EC2 Instance with Userdata and Security Group that Allow permission SSH and HTTP services.
+
+
 aws cloudformation create-stack --stack-name MyWebServerWithSecurityGroup --template-body file://MyWebServerWithSecurityGroup.yaml --parameters ParameterKey='KeyName',ParameterValue='SGkey'
