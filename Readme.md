@@ -1,4 +1,6 @@
  # This project is EC2 Instances With UserData and SecurityGroup that allow permission SSH and HTTP.
+ 
+ - [MyWebServerWithSecurityGroup.yaml.yaml](./Template/MyWebServerWithSecurityGroup.yaml.yaml)
  #Create Stack
  ```bash
 aws cloudformation create-stack --stack-name MyWebServerWithSecurityGroup --template-body file://MyWebServerWithSecurityGroup.yaml --parameters ParameterKey='KeyName',ParameterValue='SGkey'
