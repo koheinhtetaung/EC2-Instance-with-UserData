@@ -1,4 +1,4 @@
- # This project is very simple project. Just create EC2 Instances With UserData and SecurityGroup that allow permission SSH and HTTP.
+ ### This project is very simple project. Just create EC2 Instances With UserData and SecurityGroup that allow permission SSH and HTTP.
  
  - [MyWebServerWithSecurityGroup.yaml](./Template/MyWebServerWithSecurityGroup.yaml)
 
